@@ -389,12 +389,12 @@ Puedes descargar los archivos de códigos de ejemplo para todos los libros Packt
 Para acceder a los archivos desde Windows, podemos asignar una unidad de red para la ruta `\\ <my-server-name>\odoo`
 utilizando el nombre de usuario y la contraseña específicos definidos con `smbpasswd` Al intentar iniciar sesión con el usuario `odoo`, podría encontrar problemas con Windows agregando el dominio del equipo al nombre de usuario (por ejemplo, `MYPC \ odoo`). Para evitar esto, utilice un dominio vacío añadiendo un caracter`\` al inicio de sesión (por ejemplo, `\ odoo`):
 
-![Directory](file:img/1-03.jpg)
+Directory](/img/1-03.jpg)
 
 
 Si ahora abrimos la unidad asignada con el Explorador de Windows, podremos acceder y editar el contenido del directorio home del usuario `odoo`:
 
-![Home](file:img/1-04.jpg)
+![Home](/img/1-04.jpg)
 
 Odoo incluye un par de herramientas que son muy útiles para los desarrolladores, y vamos a hacer uso de ellAs a lo largo del libro. Son características técnicas y el modo de desarrollo. Estos están desactivados por defecto, por lo que este es un buen momento para aprender a habilitarlos.
 
@@ -403,11 +403,11 @@ Las herramientas de desarrollo proporcionan una configuración y funciones avanz
 
 Estas herramientas vienen deshabilitadas de forma predeterminada y, para habilitarlas, debemos iniciar sesión como administrador. En la barra de menú superior, seleccione el menú **Settings**. En la parte inferior derecha, debajo de la versión Odoo, encontrará dos opciones para habilitar el modo de desarrollo; cualquiera de ellas habilitará los menús **Debug** y **Technical**. La segunda opción, **Activate the developer mode (whit assest)**, también deshabilita la minificación de JavaScript y CSS utilizada por el cliente web, facilitando la depuración del comportamiento del cliente:
 
-![Depuracion](file:img/1-05.jpg)
+![Depuracion](/img/1-05.jpg)
 
 Después de eso, la página se vuelve a cargar y debería verse un icono de error en la barra de menú superior, justo antes del avatar y nombre de usuario de la sesión que proporciona las opciones de modo de depuración. Y en la opción **Settings** en el menú superior, deberíamos ver una nueva sección del menú **Technical** que da acceso a muchos internos de la instancia de Odoo:
 
-![Cliente](file:img/1-06.jpg)
+![Cliente](/img/1-06.jpg)
 
 #### Tip
 La opción **Technical** del menú nos permite inspeccionar y editar todas las configuraciones Odoo almacenadas en la base de datos, desde la interfaz de usuario hasta la seguridad y otros parámetros del sistema. Aprenderás más sobre muchos de estos a lo largo del libro.
