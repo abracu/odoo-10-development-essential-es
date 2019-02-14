@@ -458,7 +458,7 @@ Después de actualizar la lista de módulos, podemos confirmar que los nuevos m�
 
 Ten en cuenta que la segunda opción de menú **App Store** muestra la lista de módulos del almacén de aplicaciones Odoo en lugar de los módulos locales:
 
-![Apps](file:img/1-07.jpg)
+![Apps](/img/1-07.jpg)
 
 ## Resumen
 En este capítulo, aprendimos a configurar un sistema Debian para alojar Odoo e instalarlo desde el código fuente de GitHub. También aprendimos a crear bases de datos Odoo y ejecutar instancias de Odoo. Para permitir a los desarrolladores utilizar sus herramientas favoritas en su estación de trabajo personal, explicamos cómo configurar el uso compartido de archivos en el huesped Odoo.
