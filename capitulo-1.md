@@ -143,7 +143,7 @@ En Odoo 10, el script `odoo.py`, utilizado en versiones previas para iniciar el 
 
 De forma predeterminada, las instancias Odoo escuchan en el puerto 8069, por lo que si apuntamos un navegador a `http: // <dirección-servidor>: 8069`, llegaremos a estas instancias. Cuando lo accedemos por primera vez, nos muestra un asistente para crear una nueva base de datos, como se muestra en la siguiente captura de pantalla:
 
-![Database](file:img/1-01.jpg)
+![Database](/img/1-01.jpg)
 
 Como desarrolladores, necesitaremos trabajar con varias bases de datos, así que es más convenientes más conveniente crearlos desde la línea de comandos, así que aprenderemos cómo hacerlo. Ahora presione ***Ctrl + C*** en el terminal para detener el servidor Odoo y volver al prompt de comando.
 
@@ -179,7 +179,7 @@ Si estás hospedando Odoo en una máquina virtual, es posible que debas establec
 
 La cuenta de administrador predeterminada es `admin` con su contraseña `admin`. Al iniciar sesión, se le presenta el menú  **Apps**, que muestra las aplicaciones disponibles:
 
-![Database](file:img/1-02.jpg)
+![Database](/img/1-02.jpg)
 
 Siempre que desee detener la instancia del servidor Odoo y volver a la línea de comandos, presione ***Ctrl + C*** en el indicador de bash. Al presionar la tecla de flecha hacia arriba le llevará el comando de shell anterior, por lo que es una forma rápida de iniciar Odoo de nuevo con las mismas opciones. Las teclas ***Ctrl + C*** seguido por la tecla de flecha hacia arriba y ***Enter*** son una combinación utilizada con frecuencia para reiniciar el servidor Odoo durante el desarrollo.
 
