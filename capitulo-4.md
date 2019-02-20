@@ -105,7 +105,7 @@ Después de guardar los cambios en el archivo CSV, haz clic en la opción **Impo
 
 Allí, debemos seleccionar la ubicación del archivo CSV en el disco y hacer clic en **Validate** para comprobar su exactitud. Ya que que el archivo a importar se basa en una exportación Odoo, lo más probable es que sea válido:
 
-![Minion]((img/4-06.jpg)
+![Minion](img/4-06.jpg)
 
 Ahora podemos hacer clic en **Import**, y ahí lo tienes; Nuestras modificaciones y nuevos registros deberían haber sido cargados en Odoo.
 
